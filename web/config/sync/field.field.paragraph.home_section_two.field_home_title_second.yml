@@ -1,0 +1,21 @@
+uuid: d1252c3c-024f-4bc3-97ee-29d60abb009a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_title_second
+    - paragraphs.paragraphs_type.home_section_two
+  module:
+    - text
+id: paragraph.home_section_two.field_home_title_second
+field_name: field_home_title_second
+entity_type: paragraph
+bundle: home_section_two
+label: home_title_second
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

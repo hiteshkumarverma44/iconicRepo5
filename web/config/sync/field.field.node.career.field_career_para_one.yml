@@ -1,0 +1,55 @@
+uuid: 5755e831-c727-4b21-9f41-292c886d793c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_career_para_one
+    - node.type.career
+    - paragraphs.paragraphs_type.career_section_one
+  module:
+    - entity_reference_revisions
+id: node.career.field_career_para_one
+field_name: field_career_para_one
+entity_type: node
+bundle: career
+label: career_para_one
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      career_section_one: career_section_one
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 10
+        enabled: false
+      about_us_section_five_b:
+        weight: 11
+        enabled: false
+      about_us_section_one:
+        weight: 12
+        enabled: false
+      about_us_section_three:
+        weight: 13
+        enabled: false
+      about_us_section_three_b:
+        weight: 14
+        enabled: false
+      about_us_section_two:
+        weight: 15
+        enabled: false
+      career_section_one:
+        weight: 16
+        enabled: true
+      career_section_three:
+        weight: 17
+        enabled: false
+      career_section_two:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

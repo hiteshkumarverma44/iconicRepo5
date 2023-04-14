@@ -1,0 +1,21 @@
+uuid: 3a07b6d8-8e54-43c6-959b-9ea139842e54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_list_first
+    - paragraphs.paragraphs_type.about_us_section_one
+  module:
+    - options
+id: paragraph.about_us_section_one.field_about_list_first
+field_name: field_about_list_first
+entity_type: paragraph
+bundle: about_us_section_one
+label: about_list_first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

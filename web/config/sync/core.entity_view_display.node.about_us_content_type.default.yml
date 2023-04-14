@@ -1,0 +1,30 @@
+uuid: a4281d2d-d54c-471e-b5f4-449c4a691dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.about_us_content_type.field_about_us_page
+    - node.type.about_us_content_type
+  module:
+    - entity_reference_revisions
+    - user
+id: node.about_us_content_type.default
+targetEntityType: node
+bundle: about_us_content_type
+mode: default
+content:
+  field_about_us_page:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

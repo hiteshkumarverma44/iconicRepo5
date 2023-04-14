@@ -1,0 +1,30 @@
+uuid: 6d954c9b-c6be-4562-a9d4-a595f7df70d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.service_section_two.field_service_dec_second
+    - field.field.paragraph.service_section_two.field_service_title_second
+    - paragraphs.paragraphs_type.service_section_two
+  module:
+    - text
+id: paragraph.service_section_two.default
+targetEntityType: paragraph
+bundle: service_section_two
+mode: default
+content:
+  field_service_dec_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_service_title_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

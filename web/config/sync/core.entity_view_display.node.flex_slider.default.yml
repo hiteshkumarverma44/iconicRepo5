@@ -1,0 +1,32 @@
+uuid: f13dff6a-bca8-4e25-bdd6-0599263a49e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.flex_slider.field_image_flex_slider
+    - node.type.flex_slider
+  module:
+    - image
+    - user
+id: node.flex_slider.default
+targetEntityType: node
+bundle: flex_slider
+mode: default
+content:
+  field_image_flex_slider:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

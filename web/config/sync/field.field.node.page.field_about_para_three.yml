@@ -1,0 +1,43 @@
+uuid: 34108ba6-c510-4309-a30d-c8ed32f5d0a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_para_three
+    - node.type.page
+    - paragraphs.paragraphs_type.about_us_section_three
+  module:
+    - entity_reference_revisions
+id: node.page.field_about_para_three
+field_name: field_about_para_three
+entity_type: node
+bundle: page
+label: about_para_three
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      about_us_section_three: about_us_section_three
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 6
+        enabled: false
+      about_us_section_one:
+        weight: 7
+        enabled: false
+      about_us_section_three:
+        weight: 8
+        enabled: true
+      about_us_section_three_b:
+        weight: 9
+        enabled: false
+      about_us_section_two:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: 6b1b03d0-54b1-4a5e-98d1-43ca025e733f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_career_title_third
+    - paragraphs.paragraphs_type.career_section_three
+  module:
+    - text
+id: paragraph.career_section_three.field_career_title_third
+field_name: field_career_title_third
+entity_type: paragraph
+bundle: career_section_three
+label: career_title_third
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

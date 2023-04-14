@@ -1,0 +1,26 @@
+uuid: 9a60c1e4-7311-4122-9eeb-18c50ad9fbb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_three_b.field_about_image_third_b
+    - paragraphs.paragraphs_type.about_us_section_three_b
+  module:
+    - image
+id: paragraph.about_us_section_three_b.default
+targetEntityType: paragraph
+bundle: about_us_section_three_b
+mode: default
+content:
+  field_about_image_third_b:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

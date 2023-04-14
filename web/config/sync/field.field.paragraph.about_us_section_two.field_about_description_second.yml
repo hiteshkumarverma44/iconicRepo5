@@ -1,0 +1,21 @@
+uuid: dfd508b4-75d2-4094-ba39-d95f67ed0a2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_description_second
+    - paragraphs.paragraphs_type.about_us_section_two
+  module:
+    - text
+id: paragraph.about_us_section_two.field_about_description_second
+field_name: field_about_description_second
+entity_type: paragraph
+bundle: about_us_section_two
+label: about_description_second
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

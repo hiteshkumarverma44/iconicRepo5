@@ -1,0 +1,21 @@
+uuid: 7eaf0818-ef27-4b07-8258-efb37348d2bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_service_title_second
+    - paragraphs.paragraphs_type.service_section_two
+  module:
+    - text
+id: paragraph.service_section_two.field_service_title_second
+field_name: field_service_title_second
+entity_type: paragraph
+bundle: service_section_two
+label: service_title_second
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,21 @@
+uuid: 352cc55b-763b-488e-b3aa-aee47b3fff8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_des_first_list
+    - paragraphs.paragraphs_type.about_us_section_one
+  module:
+    - text
+id: paragraph.about_us_section_one.field_about_des_first_list
+field_name: field_about_des_first_list
+entity_type: paragraph
+bundle: about_us_section_one
+label: about_des_first_list
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

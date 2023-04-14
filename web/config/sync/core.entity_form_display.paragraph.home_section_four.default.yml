@@ -1,0 +1,45 @@
+uuid: 0d3e553f-13c5-4ed8-b0ea-03d0b0bf4d3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_section_four.field_home_description_fourth
+    - field.field.paragraph.home_section_four.field_home_image_fourth
+    - field.field.paragraph.home_section_four.field_home_title_fourth
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.home_section_four
+  module:
+    - image
+    - text
+id: paragraph.home_section_four.default
+targetEntityType: paragraph
+bundle: home_section_four
+mode: default
+content:
+  field_home_description_fourth:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_home_image_fourth:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_home_title_fourth:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

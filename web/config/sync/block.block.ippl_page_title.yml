@@ -1,0 +1,20 @@
+uuid: ad5fc1ca-be11-4163-bd6c-cab3237afe5c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ippl
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: ippl_page_title
+theme: ippl
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

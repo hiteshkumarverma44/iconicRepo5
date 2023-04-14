@@ -1,0 +1,21 @@
+uuid: 287d1b1f-6ad6-4b42-b36a-d0805f59e67d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_service_dec_second
+    - paragraphs.paragraphs_type.service_section_two
+  module:
+    - text
+id: paragraph.service_section_two.field_service_dec_second
+field_name: field_service_dec_second
+entity_type: paragraph
+bundle: service_section_two
+label: service_dec_second
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

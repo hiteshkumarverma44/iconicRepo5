@@ -1,0 +1,49 @@
+uuid: ed72cffe-2ac8-42b2-943a-4422dcd12187
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_us_page
+    - node.type.about_us_content_type
+    - paragraphs.paragraphs_type.about_us_section_five
+    - paragraphs.paragraphs_type.about_us_section_one
+    - paragraphs.paragraphs_type.about_us_section_three
+    - paragraphs.paragraphs_type.about_us_section_two
+  module:
+    - entity_reference_revisions
+id: node.about_us_content_type.field_about_us_page
+field_name: field_about_us_page
+entity_type: node
+bundle: about_us_content_type
+label: about_us_page
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      about_us_section_five: about_us_section_five
+      about_us_section_one: about_us_section_one
+      about_us_section_three: about_us_section_three
+      about_us_section_two: about_us_section_two
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 6
+        enabled: true
+      about_us_section_one:
+        weight: 7
+        enabled: true
+      about_us_section_three:
+        weight: 8
+        enabled: true
+      about_us_section_three_b:
+        weight: 9
+        enabled: true
+      about_us_section_two:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

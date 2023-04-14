@@ -1,0 +1,18 @@
+uuid: 90ed3b01-2e9a-4523-8e6a-e118bea0b3a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: about_us_content_type
+type: about_us_content_type
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

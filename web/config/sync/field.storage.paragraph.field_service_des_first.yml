@@ -1,0 +1,19 @@
+uuid: d81c287a-2595-4313-807f-70cb2142322e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_service_des_first
+field_name: field_service_des_first
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

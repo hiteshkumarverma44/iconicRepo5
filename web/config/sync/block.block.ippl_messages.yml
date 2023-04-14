@@ -1,0 +1,22 @@
+uuid: b2b71659-efb5-4c4d-82fc-b08517685017
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ippl
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: ippl_messages
+theme: ippl
+region: highlighted
+weight: -11
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

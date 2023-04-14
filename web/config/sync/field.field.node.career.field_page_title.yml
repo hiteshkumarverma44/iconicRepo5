@@ -1,0 +1,67 @@
+uuid: 24442e65-0745-4022-a647-fa1fa7c62719
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_title
+    - node.type.career
+    - paragraphs.paragraphs_type.header_title
+  module:
+    - entity_reference_revisions
+id: node.career.field_page_title
+field_name: field_page_title
+entity_type: node
+bundle: career
+label: page_title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      header_title: header_title
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 14
+        enabled: false
+      about_us_section_five_b:
+        weight: 15
+        enabled: false
+      about_us_section_one:
+        weight: 16
+        enabled: false
+      about_us_section_three:
+        weight: 17
+        enabled: false
+      about_us_section_three_b:
+        weight: 18
+        enabled: false
+      about_us_section_two:
+        weight: 19
+        enabled: false
+      career_section_one:
+        weight: 20
+        enabled: false
+      career_section_three:
+        weight: 21
+        enabled: false
+      career_section_two:
+        weight: 22
+        enabled: false
+      header_title:
+        weight: 23
+        enabled: true
+      home_section_four:
+        weight: 24
+        enabled: false
+      home_section_one:
+        weight: 25
+        enabled: false
+      home_section_two:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

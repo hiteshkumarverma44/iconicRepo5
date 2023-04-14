@@ -1,0 +1,21 @@
+uuid: 5a05edfa-1b2b-43c6-a9de-65d5ba9f69cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_about_para_three_b
+field_name: field_about_para_three_b
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,56 @@
+uuid: 2677bac4-7eed-45db-9280-e1fc1f7e8b19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.small_flex_slider.field_small_flex_slider_one
+    - field.field.node.small_flex_slider.field_small_flex_slider_three
+    - field.field.node.small_flex_slider.field_small_flex_slider_two
+    - node.type.small_flex_slider
+  module:
+    - image
+    - user
+id: node.small_flex_slider.default
+targetEntityType: node
+bundle: small_flex_slider
+mode: default
+content:
+  field_small_flex_slider_one:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_small_flex_slider_three:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_small_flex_slider_two:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

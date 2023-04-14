@@ -1,0 +1,26 @@
+uuid: 88db2a68-96ad-40d4-a574-279e355a6cfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.service.field_service_para_one
+    - field.field.node.service.field_service_para_three
+    - field.field.node.service.field_service_para_two
+    - node.type.service
+  module:
+    - user
+id: node.service.teaser
+targetEntityType: node
+bundle: service
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_service_para_one: true
+  field_service_para_three: true
+  field_service_para_two: true

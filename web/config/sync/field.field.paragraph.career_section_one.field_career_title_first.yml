@@ -1,0 +1,21 @@
+uuid: 5b0fbbeb-f969-4208-a569-7f5c2242cfdf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_career_title_first
+    - paragraphs.paragraphs_type.career_section_one
+  module:
+    - text
+id: paragraph.career_section_one.field_career_title_first
+field_name: field_career_title_first
+entity_type: paragraph
+bundle: career_section_one
+label: career_title_first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

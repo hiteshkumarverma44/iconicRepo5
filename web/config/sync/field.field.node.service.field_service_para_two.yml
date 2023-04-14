@@ -1,0 +1,73 @@
+uuid: 75924aae-f680-40ca-911e-1e491ee30455
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_para_two
+    - node.type.service
+    - paragraphs.paragraphs_type.service_section_two
+  module:
+    - entity_reference_revisions
+id: node.service.field_service_para_two
+field_name: field_service_para_two
+entity_type: node
+bundle: service
+label: service_para_two
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      service_section_two: service_section_two
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 16
+        enabled: false
+      about_us_section_five_b:
+        weight: 17
+        enabled: false
+      about_us_section_one:
+        weight: 18
+        enabled: false
+      about_us_section_three:
+        weight: 19
+        enabled: false
+      about_us_section_three_b:
+        weight: 20
+        enabled: false
+      about_us_section_two:
+        weight: 21
+        enabled: false
+      career_section_one:
+        weight: 22
+        enabled: false
+      career_section_three:
+        weight: 23
+        enabled: false
+      career_section_two:
+        weight: 24
+        enabled: false
+      header_title:
+        weight: 25
+        enabled: false
+      home_section_four:
+        weight: 26
+        enabled: false
+      home_section_one:
+        weight: 27
+        enabled: false
+      home_section_two:
+        weight: 28
+        enabled: false
+      service_section_one:
+        weight: 29
+        enabled: false
+      service_section_two:
+        weight: 30
+        enabled: true
+field_type: entity_reference_revisions

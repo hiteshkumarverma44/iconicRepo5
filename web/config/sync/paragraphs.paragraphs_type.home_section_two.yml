@@ -1,0 +1,10 @@
+uuid: 3b1f7480-04ca-481b-abc3-4eefba0e0d08
+langcode: en
+status: true
+dependencies: {  }
+id: home_section_two
+label: home_section_two
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

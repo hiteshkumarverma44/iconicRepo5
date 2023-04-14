@@ -1,0 +1,21 @@
+uuid: d47e9685-d832-41cd-97e9-503293548964
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_list_fifth
+    - paragraphs.paragraphs_type.about_us_section_five
+  module:
+    - options
+id: paragraph.about_us_section_five.field_about_list_fifth
+field_name: field_about_list_fifth
+entity_type: paragraph
+bundle: about_us_section_five
+label: about_list_fifth
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

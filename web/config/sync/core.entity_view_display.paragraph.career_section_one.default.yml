@@ -1,0 +1,22 @@
+uuid: b86799d9-e28c-4d3b-8e94-0953343917fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.career_section_one.field_career_title_first
+    - paragraphs.paragraphs_type.career_section_one
+  module:
+    - text
+id: paragraph.career_section_one.default
+targetEntityType: paragraph
+bundle: career_section_one
+mode: default
+content:
+  field_career_title_first:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

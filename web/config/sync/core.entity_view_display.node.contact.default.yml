@@ -1,0 +1,19 @@
+uuid: 15496737-e2a4-440f-a980-4f8858c40358
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contact
+  module:
+    - user
+id: node.contact.default
+targetEntityType: node
+bundle: contact
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

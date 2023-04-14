@@ -1,0 +1,60 @@
+uuid: cd834f25-8988-4735-bb23-47d4df5b5f34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.career.field_career_para_one
+    - field.field.node.career.field_career_para_three
+    - field.field.node.career.field_career_para_two
+    - field.field.node.career.field_page_title
+    - node.type.career
+  module:
+    - entity_reference_revisions
+    - user
+id: node.career.default
+targetEntityType: node
+bundle: career
+mode: default
+content:
+  field_career_para_one:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_career_para_three:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_career_para_two:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_page_title:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

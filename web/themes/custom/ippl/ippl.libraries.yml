@@ -1,0 +1,28 @@
+# These will be loaded on every pages.
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/bootstrap.min.css: {}
+      css/style1.css: {}
+      css/ippl.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css:
+        { type: external }
+      # css/fontawesome.min.css: {}
+
+  js:
+    js/ippl.js: {}
+    js/3969886.js: {}
+    js/bootstrap.min.js: {}
+    https://kit.fontawesome.com/7fafa48f57.js: { type: external }
+
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+# fontawesome:
+#   version: VERSION
+#   css:
+#     component:
+#       //use.fontawesome.com/releases/v5.1.0/css/all.css: {}

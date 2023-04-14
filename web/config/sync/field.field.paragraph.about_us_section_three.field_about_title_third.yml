@@ -1,0 +1,21 @@
+uuid: ebca44e0-8bbc-467a-ac60-df5921d66ca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_title_third
+    - paragraphs.paragraphs_type.about_us_section_three
+  module:
+    - text
+id: paragraph.about_us_section_three.field_about_title_third
+field_name: field_about_title_third
+entity_type: paragraph
+bundle: about_us_section_three
+label: about_title_third
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

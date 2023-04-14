@@ -1,0 +1,23 @@
+uuid: 6e78979d-5268-4d30-b05a-aaf5a58bbae2
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ippl
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: ippl_search
+theme: ippl
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

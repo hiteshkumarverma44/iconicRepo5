@@ -1,0 +1,30 @@
+uuid: 70cdba3c-fd4a-4ec8-8ee8-6b2e08a8b9ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_three.field_about_description_third
+    - field.field.paragraph.about_us_section_three.field_about_title_third
+    - paragraphs.paragraphs_type.about_us_section_three
+  module:
+    - text
+id: paragraph.about_us_section_three.default
+targetEntityType: paragraph
+bundle: about_us_section_three
+mode: default
+content:
+  field_about_description_third:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_about_title_third:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

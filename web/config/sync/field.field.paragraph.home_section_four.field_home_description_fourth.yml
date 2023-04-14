@@ -1,0 +1,21 @@
+uuid: 8572a54e-cace-46d2-9094-0dcae2cb6ed5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_description_fourth
+    - paragraphs.paragraphs_type.home_section_four
+  module:
+    - text
+id: paragraph.home_section_four.field_home_description_fourth
+field_name: field_home_description_fourth
+entity_type: paragraph
+bundle: home_section_four
+label: home_description_fourth
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

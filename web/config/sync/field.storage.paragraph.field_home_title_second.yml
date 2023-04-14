@@ -1,0 +1,20 @@
+uuid: 2306e4ed-6953-4cb5-afbd-bc66854248fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_home_title_second
+field_name: field_home_title_second
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

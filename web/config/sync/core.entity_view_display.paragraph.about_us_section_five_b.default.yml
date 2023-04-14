@@ -1,0 +1,30 @@
+uuid: 6d40aa09-0e88-455f-960d-01e4f20391fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_five_b.field_about_description_fifth
+    - field.field.paragraph.about_us_section_five_b.field_about_subtitle_fifth
+    - paragraphs.paragraphs_type.about_us_section_five_b
+  module:
+    - text
+id: paragraph.about_us_section_five_b.default
+targetEntityType: paragraph
+bundle: about_us_section_five_b
+mode: default
+content:
+  field_about_description_fifth:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_about_subtitle_fifth:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

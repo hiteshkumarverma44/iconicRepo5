@@ -1,0 +1,20 @@
+uuid: 26e232db-d6e3-4bb0-a3b9-aefae65b3c4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_career_subtitle_second
+field_name: field_career_subtitle_second
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,68 @@
+uuid: fb9d7063-e355-4ae9-8f71-e6c3c5c68db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_one.field_about_des_first_list
+    - field.field.paragraph.about_us_section_one.field_about_description_first
+    - field.field.paragraph.about_us_section_one.field_about_image_first
+    - field.field.paragraph.about_us_section_one.field_about_list_first
+    - field.field.paragraph.about_us_section_one.field_about_sub_title_first
+    - field.field.paragraph.about_us_section_one.field_about_title_first
+    - paragraphs.paragraphs_type.about_us_section_one
+  module:
+    - image
+    - options
+    - text
+id: paragraph.about_us_section_one.default
+targetEntityType: paragraph
+bundle: about_us_section_one
+mode: default
+content:
+  field_about_des_first_list:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_about_description_first:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_about_image_first:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_about_list_first:
+    type: list_key
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_about_sub_title_first:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_about_title_first:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

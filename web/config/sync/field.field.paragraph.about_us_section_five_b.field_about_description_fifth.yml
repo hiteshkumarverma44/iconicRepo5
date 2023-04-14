@@ -1,0 +1,21 @@
+uuid: ed52e0a6-a3c7-4263-8713-9bbca0bb3533
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_description_fifth
+    - paragraphs.paragraphs_type.about_us_section_five_b
+  module:
+    - text
+id: paragraph.about_us_section_five_b.field_about_description_fifth
+field_name: field_about_description_fifth
+entity_type: paragraph
+bundle: about_us_section_five_b
+label: about_description_fifth
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

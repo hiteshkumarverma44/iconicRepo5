@@ -1,0 +1,76 @@
+uuid: adda75f9-b5a2-4f29-a581-79a4a58b73b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_para_three
+    - node.type.service
+    - paragraphs.paragraphs_type.service_section_three
+  module:
+    - entity_reference_revisions
+id: node.service.field_service_para_three
+field_name: field_service_para_three
+entity_type: node
+bundle: service
+label: service_para_three
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      service_section_three: service_section_three
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 17
+        enabled: false
+      about_us_section_five_b:
+        weight: 18
+        enabled: false
+      about_us_section_one:
+        weight: 19
+        enabled: false
+      about_us_section_three:
+        weight: 20
+        enabled: false
+      about_us_section_three_b:
+        weight: 21
+        enabled: false
+      about_us_section_two:
+        weight: 22
+        enabled: false
+      career_section_one:
+        weight: 23
+        enabled: false
+      career_section_three:
+        weight: 24
+        enabled: false
+      career_section_two:
+        weight: 25
+        enabled: false
+      header_title:
+        weight: 26
+        enabled: false
+      home_section_four:
+        weight: 27
+        enabled: false
+      home_section_one:
+        weight: 28
+        enabled: false
+      home_section_two:
+        weight: 29
+        enabled: false
+      service_section_one:
+        weight: 30
+        enabled: false
+      service_section_three:
+        weight: 31
+        enabled: true
+      service_section_two:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

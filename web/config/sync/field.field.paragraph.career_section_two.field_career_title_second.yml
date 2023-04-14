@@ -1,0 +1,21 @@
+uuid: 689bfb87-1c35-4444-868f-34a9f1bc2780
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_career_title_second
+    - paragraphs.paragraphs_type.career_section_two
+  module:
+    - text
+id: paragraph.career_section_two.field_career_title_second
+field_name: field_career_title_second
+entity_type: paragraph
+bundle: career_section_two
+label: career_title_second
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
