@@ -1,0 +1,64 @@
+uuid: 10dff6c6-c627-40fa-af8f-e432fb192b66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_para_fourth_right
+    - node.type.home
+    - paragraphs.paragraphs_type.home_section_one
+  module:
+    - entity_reference_revisions
+id: node.home.field_home_para_fourth_right
+field_name: field_home_para_fourth_right
+entity_type: node
+bundle: home
+label: home_para_fourth_right
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_section_one: home_section_one
+    negate: 0
+    target_bundles_drag_drop:
+      about_us_section_five:
+        weight: 13
+        enabled: false
+      about_us_section_five_b:
+        weight: 14
+        enabled: false
+      about_us_section_one:
+        weight: 15
+        enabled: false
+      about_us_section_three:
+        weight: 16
+        enabled: false
+      about_us_section_three_b:
+        weight: 17
+        enabled: false
+      about_us_section_two:
+        weight: 18
+        enabled: false
+      career_section_one:
+        weight: 19
+        enabled: false
+      career_section_three:
+        weight: 20
+        enabled: false
+      career_section_two:
+        weight: 21
+        enabled: false
+      home_section_four:
+        weight: 22
+        enabled: false
+      home_section_one:
+        weight: 23
+        enabled: true
+      home_section_two:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,38 @@
+uuid: 5d05026d-bdd0-46b9-b440-df9c67ecdc1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_two.field_about_description_second
+    - field.field.paragraph.about_us_section_two.field_about_icon_second
+    - field.field.paragraph.about_us_section_two.field_about_title_second
+    - paragraphs.paragraphs_type.about_us_section_two
+  module:
+    - text
+id: paragraph.about_us_section_two.default
+targetEntityType: paragraph
+bundle: about_us_section_two
+mode: default
+content:
+  field_about_description_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_about_icon_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_about_title_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

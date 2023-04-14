@@ -1,0 +1,66 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - in_preview: Whether the plugin is being rendered in preview mode.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - content_attributes: Same as attributes, except applied to the main content
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ *
+ * @ingroup themeable
+ */
+#}
+{% set classes = [
+  'block',
+  'block-' ~ (configuration.provider|clean_class),
+  'block-' ~ (plugin_id|clean_class)
+] %}
+<div {{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2 {{ title_attributes }}>
+      {{ label }}
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    <div {{ content_attributes.addClass('content') }}>
+      <section class="footer-copyright">
+        <div class="container">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="region region-copyright">
+              <section id="block-copyright"
+                data-block-plugin-id="block_content:9dd8e16a-7a32-4e4a-b211-e7e208bec36e"
+                class="block block-block-content block-block-content9dd8e16a-7a32-4e4a-b211-e7e208bec36e clearfix">
+                <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
+                  {{ content }}
+                </div>
+              </section>
+            </div>
+          </div>
+          <!-- col-md-10 end -->
+        </div>
+      </section>
+    </div>
+  {% endblock %}
+</div>

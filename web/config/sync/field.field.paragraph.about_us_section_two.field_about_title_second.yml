@@ -1,0 +1,21 @@
+uuid: 3210b062-615e-41b0-8bcc-6150378cdbcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_title_second
+    - paragraphs.paragraphs_type.about_us_section_two
+  module:
+    - text
+id: paragraph.about_us_section_two.field_about_title_second
+field_name: field_about_title_second
+entity_type: paragraph
+bundle: about_us_section_two
+label: about_title_second
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

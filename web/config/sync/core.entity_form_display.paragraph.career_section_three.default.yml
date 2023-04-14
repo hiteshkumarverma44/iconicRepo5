@@ -1,0 +1,54 @@
+uuid: 536117fa-98bb-42ec-b7f5-92606d1087c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.career_section_three.field_career_description_third
+    - field.field.paragraph.career_section_three.field_career_image_third
+    - field.field.paragraph.career_section_three.field_career_subtitle_third
+    - field.field.paragraph.career_section_three.field_career_title_third
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.career_section_three
+  module:
+    - image
+    - text
+id: paragraph.career_section_three.default
+targetEntityType: paragraph
+bundle: career_section_three
+mode: default
+content:
+  field_career_description_third:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_career_image_third:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_career_subtitle_third:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_career_title_third:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

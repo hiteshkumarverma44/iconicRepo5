@@ -1,0 +1,38 @@
+uuid: 1cee1566-634f-42ce-8f1a-2dec7cbb9e6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_image_third_b
+    - paragraphs.paragraphs_type.about_us_section_three_b
+  module:
+    - image
+id: paragraph.about_us_section_three_b.field_about_image_third_b
+field_name: field_about_image_third_b
+entity_type: paragraph
+bundle: about_us_section_three_b
+label: about_image_third_b
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

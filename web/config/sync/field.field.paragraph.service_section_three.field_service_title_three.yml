@@ -1,0 +1,21 @@
+uuid: afdb91a3-9939-415f-9fe7-333826ca5659
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_service_title_three
+    - paragraphs.paragraphs_type.service_section_three
+  module:
+    - text
+id: paragraph.service_section_three.field_service_title_three
+field_name: field_service_title_three
+entity_type: paragraph
+bundle: service_section_three
+label: service_title_three
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,7 @@
+uuid: 11a04d95-5af1-4324-993d-7c1d4dc17670
+langcode: en
+status: false
+dependencies: {  }
+formId: node_small_flex_slider_form
+captchaType: default
+label: node_small_flex_slider_form

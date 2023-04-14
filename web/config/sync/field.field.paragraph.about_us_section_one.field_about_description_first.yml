@@ -1,0 +1,21 @@
+uuid: 4340f3a7-178c-443b-8027-728c1d5ee0c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_description_first
+    - paragraphs.paragraphs_type.about_us_section_one
+  module:
+    - text
+id: paragraph.about_us_section_one.field_about_description_first
+field_name: field_about_description_first
+entity_type: paragraph
+bundle: about_us_section_one
+label: about_description_first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

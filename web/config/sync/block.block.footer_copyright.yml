@@ -1,0 +1,45 @@
+uuid: 5f9cfb78-ea3a-4572-bf2f-64a26081f519
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1203453c-cb99-42ba-9e3b-0c7b30806a1f'
+  module:
+    - block_content
+    - context
+  theme:
+    - ippl
+id: footer_copyright
+theme: ippl
+region: footer_copyright
+weight: 0
+provider: null
+plugin: 'block_content:1203453c-cb99-42ba-9e3b-0c7b30806a1f'
+settings:
+  id: 'block_content:1203453c-cb99-42ba-9e3b-0c7b30806a1f'
+  label: footer_copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  context:
+    id: context
+    negate: null
+    values: ''

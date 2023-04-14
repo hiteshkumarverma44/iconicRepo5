@@ -1,0 +1,28 @@
+uuid: 2de8d4b1-a2ae-4479-98ff-76c6129e220b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.career.field_career_para_one
+    - field.field.node.career.field_career_para_three
+    - field.field.node.career.field_career_para_two
+    - field.field.node.career.field_page_title
+    - node.type.career
+  module:
+    - user
+id: node.career.teaser
+targetEntityType: node
+bundle: career
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_career_para_one: true
+  field_career_para_three: true
+  field_career_para_two: true
+  field_page_title: true

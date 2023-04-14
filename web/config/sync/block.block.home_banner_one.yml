@@ -1,0 +1,30 @@
+uuid: 617adb59-8115-43e7-a88b-a8aff339e040
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a69bf09f-5982-422e-9e9f-85c65f1b6e48'
+  module:
+    - block_content
+    - system
+  theme:
+    - ippl
+id: home_banner_one
+theme: ippl
+region: breadcrumb
+weight: -10
+provider: null
+plugin: 'block_content:a69bf09f-5982-422e-9e9f-85c65f1b6e48'
+settings:
+  id: 'block_content:a69bf09f-5982-422e-9e9f-85c65f1b6e48'
+  label: home_banner_one
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/8

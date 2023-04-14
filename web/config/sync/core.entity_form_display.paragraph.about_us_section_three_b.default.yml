@@ -1,0 +1,26 @@
+uuid: 7f9cca5c-109f-4788-b25e-ac916af2076d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_three_b.field_about_image_third_b
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.about_us_section_three_b
+  module:
+    - image
+id: paragraph.about_us_section_three_b.default
+targetEntityType: paragraph
+bundle: about_us_section_three_b
+mode: default
+content:
+  field_about_image_third_b:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

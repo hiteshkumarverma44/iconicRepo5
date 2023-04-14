@@ -1,0 +1,38 @@
+uuid: 6919b81c-e338-43e4-8947-92a372345569
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.career_section_two.field_career_description_second
+    - field.field.paragraph.career_section_two.field_career_subtitle_second
+    - field.field.paragraph.career_section_two.field_career_title_second
+    - paragraphs.paragraphs_type.career_section_two
+  module:
+    - text
+id: paragraph.career_section_two.default
+targetEntityType: paragraph
+bundle: career_section_two
+mode: default
+content:
+  field_career_description_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_career_subtitle_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_career_title_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

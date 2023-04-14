@@ -1,0 +1,10 @@
+uuid: b18fff55-bd5d-47ce-bcd7-04ec012826c9
+langcode: en
+status: true
+dependencies: {  }
+id: home_section_four
+label: home_section_four
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

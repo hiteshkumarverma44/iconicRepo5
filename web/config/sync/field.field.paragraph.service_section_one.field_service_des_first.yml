@@ -1,0 +1,21 @@
+uuid: b88134c3-8ef8-4a65-ba3f-a66cd84dc231
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_service_des_first
+    - paragraphs.paragraphs_type.service_section_one
+  module:
+    - text
+id: paragraph.service_section_one.field_service_des_first
+field_name: field_service_des_first
+entity_type: paragraph
+bundle: service_section_one
+label: service_des_first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

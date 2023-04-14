@@ -1,0 +1,41 @@
+uuid: 06e88d27-318b-465e-b5cf-29dd9398efa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - contact
+    - filter
+    - paragraphs_type_permissions
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view paragraph content about_us_section_five'
+  - 'view paragraph content about_us_section_five_b'
+  - 'view paragraph content about_us_section_one'
+  - 'view paragraph content about_us_section_three'
+  - 'view paragraph content about_us_section_three_b'
+  - 'view paragraph content about_us_section_two'
+  - 'view paragraph content career_section_one'
+  - 'view paragraph content career_section_three'
+  - 'view paragraph content career_section_two'
+  - 'view paragraph content header_title'
+  - 'view paragraph content home_section_four'
+  - 'view paragraph content home_section_one'
+  - 'view paragraph content home_section_two'
+  - 'view paragraph content service_section_one'
+  - 'view paragraph content service_section_three'
+  - 'view paragraph content service_section_two'

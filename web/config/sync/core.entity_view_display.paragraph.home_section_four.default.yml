@@ -1,0 +1,43 @@
+uuid: dd41d6dd-ba0e-4a3c-ad92-400d26b9ae96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_section_four.field_home_description_fourth
+    - field.field.paragraph.home_section_four.field_home_image_fourth
+    - field.field.paragraph.home_section_four.field_home_title_fourth
+    - paragraphs.paragraphs_type.home_section_four
+  module:
+    - image
+    - text
+id: paragraph.home_section_four.default
+targetEntityType: paragraph
+bundle: home_section_four
+mode: default
+content:
+  field_home_description_fourth:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_home_image_fourth:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_home_title_fourth:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

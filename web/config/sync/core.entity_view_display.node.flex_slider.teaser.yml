@@ -1,0 +1,22 @@
+uuid: 883b2dae-43f1-4930-b69e-cf53fd8c72fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flex_slider.field_image_flex_slider
+    - node.type.flex_slider
+  module:
+    - user
+id: node.flex_slider.teaser
+targetEntityType: node
+bundle: flex_slider
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_image_flex_slider: true

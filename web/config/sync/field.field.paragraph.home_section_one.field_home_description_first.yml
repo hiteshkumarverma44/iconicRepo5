@@ -1,0 +1,21 @@
+uuid: d7bb0420-a63e-4f7f-bf66-a54603006a0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_description_first
+    - paragraphs.paragraphs_type.home_section_one
+  module:
+    - text
+id: paragraph.home_section_one.field_home_description_first
+field_name: field_home_description_first
+entity_type: paragraph
+bundle: home_section_one
+label: home_description_first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

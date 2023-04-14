@@ -1,0 +1,43 @@
+uuid: 99f178b8-f39f-4146-b659-9fc80b86cc16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_section_two.field_home_description_second
+    - field.field.paragraph.home_section_two.field_home_image_second
+    - field.field.paragraph.home_section_two.field_home_title_second
+    - paragraphs.paragraphs_type.home_section_two
+  module:
+    - image
+    - text
+id: paragraph.home_section_two.default
+targetEntityType: paragraph
+bundle: home_section_two
+mode: default
+content:
+  field_home_description_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_home_image_second:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_home_title_second:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

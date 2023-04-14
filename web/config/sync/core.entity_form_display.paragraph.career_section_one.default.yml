@@ -1,0 +1,25 @@
+uuid: 37bbe4ac-9933-48ac-b6e4-45223c044dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.career_section_one.field_career_title_first
+    - paragraphs.paragraphs_type.career_section_one
+  module:
+    - text
+id: paragraph.career_section_one.default
+targetEntityType: paragraph
+bundle: career_section_one
+mode: default
+content:
+  field_career_title_first:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

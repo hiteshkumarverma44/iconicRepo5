@@ -1,0 +1,43 @@
+uuid: b68839c6-1fec-4b64-808d-ea3171510262
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.service_section_three.field_service_des_three
+    - field.field.paragraph.service_section_three.field_service_img_three
+    - field.field.paragraph.service_section_three.field_service_title_three
+    - paragraphs.paragraphs_type.service_section_three
+  module:
+    - image
+    - text
+id: paragraph.service_section_three.default
+targetEntityType: paragraph
+bundle: service_section_three
+mode: default
+content:
+  field_service_des_three:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_service_img_three:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_service_title_three:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

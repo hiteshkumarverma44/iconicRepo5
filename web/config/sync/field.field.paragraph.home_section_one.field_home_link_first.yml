@@ -1,0 +1,21 @@
+uuid: d813f898-fdcc-48d4-a6db-87b0f227082c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_home_link_first
+    - paragraphs.paragraphs_type.home_section_one
+  module:
+    - text
+id: paragraph.home_section_one.field_home_link_first
+field_name: field_home_link_first
+entity_type: paragraph
+bundle: home_section_one
+label: home_link_first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

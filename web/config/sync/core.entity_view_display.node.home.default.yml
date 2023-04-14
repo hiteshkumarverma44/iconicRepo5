@@ -1,0 +1,90 @@
+uuid: 2147cbf8-d375-449c-b5d7-8ee8fcfc69fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home.field_home_para_fourth_left
+    - field.field.node.home.field_home_para_fourth_right
+    - field.field.node.home.field_home_para_one_left
+    - field.field.node.home.field_home_para_one_right
+    - field.field.node.home.field_home_para_three_left
+    - field.field.node.home.field_home_para_three_right
+    - field.field.node.home.field_home_para_two_right
+    - node.type.home
+  module:
+    - entity_reference_revisions
+    - user
+id: node.home.default
+targetEntityType: node
+bundle: home
+mode: default
+content:
+  field_home_para_fourth_left:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_home_para_fourth_right:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_home_para_one_left:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_home_para_one_right:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_home_para_three_left:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_home_para_three_right:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_home_para_two_right:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

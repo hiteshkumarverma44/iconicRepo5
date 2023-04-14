@@ -1,0 +1,22 @@
+uuid: 564ebe49-73a4-4f5b-b747-5b5e42c1e544
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ippl
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: ippl_powered
+theme: ippl
+region: footer_fifth
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

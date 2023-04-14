@@ -1,0 +1,47 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+<div class="container footer-bottom-row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="row">
+      <div class="col-sm-3 col-sm-push-9 social-links">
+        {{ drupal_entity('block_content', 7) }}
+      </div>
+      <!-- col-sm-3 end -->
+      <div class="col-sm-9 col-sm-pull-3 comp-address">
+        <div class="region region-comp-address">
+          <section id="block-generoaddress"
+            data-block-plugin-id="block_content:26df6411-1754-4cac-a8b5-7c22f304d2d6"
+            class="block block-block-content block-block-content26df6411-1754-4cac-a8b5-7c22f304d2d6 clearfix">
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
+              {{ drupal_entity('block_content', 6) }}
+
+              <!-- other-brnach end -->
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- col-sm-9 end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- col-md-10 end -->
+</div>
+
+{# {% set classes = ['region', 'region-' ~ (region|clean_class)] %}
+{% if content %}
+  <div {{ attributes.addClass(classes) }}>
+    {{ content }}
+  </div>
+{% endif %} #}

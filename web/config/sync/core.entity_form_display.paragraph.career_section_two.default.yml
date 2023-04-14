@@ -1,0 +1,43 @@
+uuid: c0a128c5-501b-4465-a54f-56b5cf322240
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.career_section_two.field_career_description_second
+    - field.field.paragraph.career_section_two.field_career_subtitle_second
+    - field.field.paragraph.career_section_two.field_career_title_second
+    - paragraphs.paragraphs_type.career_section_two
+  module:
+    - text
+id: paragraph.career_section_two.default
+targetEntityType: paragraph
+bundle: career_section_two
+mode: default
+content:
+  field_career_description_second:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_career_subtitle_second:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_career_title_second:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

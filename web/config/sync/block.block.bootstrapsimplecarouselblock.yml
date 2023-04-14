@@ -1,0 +1,25 @@
+uuid: 8aed06ec-822f-4997-8d96-c23138ee7733
+langcode: en
+status: true
+dependencies:
+  module:
+    - bootstrap_simple_carousel
+    - system
+  theme:
+    - ippl
+id: bootstrapsimplecarouselblock
+theme: ippl
+region: breadcrumb
+weight: -12
+provider: null
+plugin: bootstrap_simple_carousel_block
+settings:
+  id: bootstrap_simple_carousel_block
+  label: 'Bootstrap simple carousel block'
+  label_display: '0'
+  provider: bootstrap_simple_carousel
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/8

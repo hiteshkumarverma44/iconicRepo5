@@ -1,0 +1,50 @@
+uuid: 360b0035-dd3e-44df-b52d-7ac7fff94711
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.service.field_service_para_one
+    - field.field.node.service.field_service_para_three
+    - field.field.node.service.field_service_para_two
+    - node.type.service
+  module:
+    - entity_reference_revisions
+    - user
+id: node.service.default
+targetEntityType: node
+bundle: service
+mode: default
+content:
+  field_service_para_one:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_service_para_three:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_service_para_two:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

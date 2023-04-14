@@ -1,0 +1,34 @@
+uuid: c24224d7-ad33-4997-af7a-3a89c8fa6110
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.field_about_para_five
+    - field.field.node.page.field_about_para_four
+    - field.field.node.page.field_about_para_one
+    - field.field.node.page.field_about_para_three
+    - field.field.node.page.field_about_para_three_b
+    - field.field.node.page.field_about_para_two
+    - field.field.node.page.field_breadcrumb_taxonomy
+    - node.type.page
+  module:
+    - user
+_core:
+  default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_about_para_five: true
+  field_about_para_four: true
+  field_about_para_one: true
+  field_about_para_three: true
+  field_about_para_three_b: true
+  field_about_para_two: true
+  field_breadcrumb_taxonomy: true

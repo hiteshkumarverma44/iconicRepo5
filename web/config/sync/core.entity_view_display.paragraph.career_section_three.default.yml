@@ -1,0 +1,51 @@
+uuid: ad75b78f-665e-492b-b49c-abb9d2ca453d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.career_section_three.field_career_description_third
+    - field.field.paragraph.career_section_three.field_career_image_third
+    - field.field.paragraph.career_section_three.field_career_subtitle_third
+    - field.field.paragraph.career_section_three.field_career_title_third
+    - paragraphs.paragraphs_type.career_section_three
+  module:
+    - image
+    - text
+id: paragraph.career_section_three.default
+targetEntityType: paragraph
+bundle: career_section_three
+mode: default
+content:
+  field_career_description_third:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_career_image_third:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_career_subtitle_third:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_career_title_third:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

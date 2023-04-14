@@ -1,0 +1,44 @@
+uuid: 63ca764f-1245-4776-a42f-52c9d06cdffe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_us_section_five.field_about_image_fifth
+    - field.field.paragraph.about_us_section_five.field_about_list_fifth
+    - field.field.paragraph.about_us_section_five.field_about_title_fifth
+    - paragraphs.paragraphs_type.about_us_section_five
+  module:
+    - image
+    - options
+    - text
+id: paragraph.about_us_section_five.default
+targetEntityType: paragraph
+bundle: about_us_section_five
+mode: default
+content:
+  field_about_image_fifth:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_about_list_fifth:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_about_title_fifth:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

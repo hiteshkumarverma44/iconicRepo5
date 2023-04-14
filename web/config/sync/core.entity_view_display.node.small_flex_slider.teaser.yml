@@ -1,0 +1,26 @@
+uuid: 966f9ef2-2567-4c03-9be2-6f5259199012
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.small_flex_slider.field_small_flex_slider_one
+    - field.field.node.small_flex_slider.field_small_flex_slider_three
+    - field.field.node.small_flex_slider.field_small_flex_slider_two
+    - node.type.small_flex_slider
+  module:
+    - user
+id: node.small_flex_slider.teaser
+targetEntityType: node
+bundle: small_flex_slider
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_small_flex_slider_one: true
+  field_small_flex_slider_three: true
+  field_small_flex_slider_two: true

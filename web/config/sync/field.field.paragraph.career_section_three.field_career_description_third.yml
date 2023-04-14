@@ -1,0 +1,21 @@
+uuid: 5b792259-b7e9-4c1e-8161-80d00c25222f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_career_description_third
+    - paragraphs.paragraphs_type.career_section_three
+  module:
+    - text
+id: paragraph.career_section_three.field_career_description_third
+field_name: field_career_description_third
+entity_type: paragraph
+bundle: career_section_three
+label: career_description_third
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

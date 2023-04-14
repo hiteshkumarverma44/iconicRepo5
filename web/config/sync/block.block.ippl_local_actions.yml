@@ -1,0 +1,20 @@
+uuid: 9923ef9b-0b36-42a1-bed5-4ef086d50042
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ippl
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: ippl_local_actions
+theme: ippl
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

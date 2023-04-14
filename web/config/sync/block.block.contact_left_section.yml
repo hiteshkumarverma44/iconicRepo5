@@ -1,0 +1,47 @@
+uuid: 3091a310-a695-4c9c-ba77-1cadd4ecbc6f
+langcode: en
+status: false
+dependencies:
+  module:
+    - context
+    - system
+  theme:
+    - ippl
+id: contact_left_section
+theme: ippl
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:95ee4e17-82de-4071-8044-700607bc5a2b'
+settings:
+  id: 'block_content:95ee4e17-82de-4071-8044-700607bc5a2b'
+  label: contact_left_section
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  context:
+    id: context
+    negate: null
+    values: ''
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/17

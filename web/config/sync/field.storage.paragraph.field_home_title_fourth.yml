@@ -1,0 +1,20 @@
+uuid: 6e2ef696-bafb-4a2a-b9d2-fc6e4b5bb8c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_home_title_fourth
+field_name: field_home_title_fourth
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

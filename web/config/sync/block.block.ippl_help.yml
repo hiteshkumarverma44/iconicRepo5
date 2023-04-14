@@ -1,0 +1,22 @@
+uuid: 23cd5dae-7454-46ad-a382-cc6fce736f51
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - ippl
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: ippl_help
+theme: ippl
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

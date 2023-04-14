@@ -1,0 +1,38 @@
+uuid: 24afce39-60d2-4485-b0bb-7e9f12a28dc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_service_img_three
+    - paragraphs.paragraphs_type.service_section_three
+  module:
+    - image
+id: paragraph.service_section_three.field_service_img_three
+field_name: field_service_img_three
+entity_type: paragraph
+bundle: service_section_three
+label: service_img_three
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

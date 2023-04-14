@@ -1,0 +1,43 @@
+uuid: 59853e41-1caa-499b-89a1-8eed67412a6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_section_one.field_home_description_first
+    - field.field.paragraph.home_section_one.field_home_link_first
+    - field.field.paragraph.home_section_one.field_home_title_first
+    - paragraphs.paragraphs_type.home_section_one
+  module:
+    - text
+id: paragraph.home_section_one.default
+targetEntityType: paragraph
+bundle: home_section_one
+mode: default
+content:
+  field_home_description_first:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_home_link_first:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_home_title_first:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

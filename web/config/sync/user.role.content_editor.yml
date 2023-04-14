@@ -1,0 +1,65 @@
+uuid: d70131ba-717d-4906-9c52-2c2105910241
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - paragraphs_type_permissions
+    - path
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create page content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view paragraph content about_us_section_five'
+  - 'view paragraph content about_us_section_five_b'
+  - 'view paragraph content about_us_section_one'
+  - 'view paragraph content about_us_section_three'
+  - 'view paragraph content about_us_section_three_b'
+  - 'view paragraph content about_us_section_two'
+  - 'view paragraph content career_section_one'
+  - 'view paragraph content career_section_three'
+  - 'view paragraph content career_section_two'
+  - 'view paragraph content header_title'
+  - 'view paragraph content home_section_four'
+  - 'view paragraph content home_section_one'
+  - 'view paragraph content home_section_two'
+  - 'view paragraph content service_section_one'
+  - 'view paragraph content service_section_three'
+  - 'view paragraph content service_section_two'
+  - 'view the administration theme'
